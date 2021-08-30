@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Index</title>
+  </head>
+  <body>
+    <!--
+      Header
+    -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Top navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <button class="btn btn-outline-success" type="submit">entrar</button>
+        </div>
+      </div>
+    </nav>
+
+    <!--
+      Main content
+    -->
+    <main>
+      <div class="col-md-8 py-4 px-3 mx-auto">
+  
+        <h1>Get started with Bootstrap</h1>
+        <div class="col-lg-8 px-0">
+          <p class="fs-4">You've successfully loaded up the Bootstrap npm starter project! It's loaded up with <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Bootstrap 5</a>, <a href="https://icons.getbootstrap.com/">Bootstrap Icons</a>, and tooling for compiling our Sass and JavaScript to your needs.</p>
+          <p>If this button and the link appears blue, you've done it!</p>
+        </div>
+        
+        <button type="button" class="btn btn-secondary me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Toggle offcanvas</button>
+        <a href="#" class="text-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">Example link</a>
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <hr class="my-5 w-25 mx-0">
+  
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <h2>Adding Bootstrap Icons</h2>
+            <p><a href="https://icons.getbootstrap.com/">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
+  
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+            </svg>
+  
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-toggles text-dark" viewBox="0 0 16 16">
+              <path d="M4.5 9a3.5 3.5 0 1 0 0 7h7a3.5 3.5 0 1 0 0-7h-7zm7 6a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm-7-14a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm2.45 0A3.49 3.49 0 0 1 8 3.5 3.49 3.49 0 0 1 6.95 6h4.55a2.5 2.5 0 0 0 0-5H6.95zM4.5 0h7a3.5 3.5 0 1 1 0 7h-7a3.5 3.5 0 1 1 0-7z"/>
+            </svg>
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-shop text-primary" viewBox="0 0 16 16">
+              <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+            </svg>
+          </div>
+
+          <div class="col-md-6 mb-3">
+            <h2>Fontawesome Icons</h2>
+            <i class="fas fa-user fa-2x"></i> <!-- uses solid style -->
+            <i class="fab fa-github-square fa-2x"></i> <!-- uses brand style -->
+            <i class="fas fa-spinner fa-pulse fa-2x"></i>
+          </div>
+  
+          <div class="col-md-6 mb-3">
+            <h2>Guides</h2>
+            <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
+            <ul class="icon-list">
+              <li><a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">Bootstrap quick start guide</a></li>
+              <li><a href="https://getbootstrap.com/docs/5.1/getting-started/webpack/">Bootstrap Webpack guide</a></li>
+              <li><a href="https://getbootstrap.com/docs/5.1/getting-started/parcel/">Bootstrap Parcel guide</a></li>
+              <li><a href="https://getbootstrap.com/docs/5.1/getting-started/build-tools/">Contributing to Bootstrap</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-md-6 mb-3">
+            <h2>Test Assets</h2>
+            <img src="../assets/150x150.jpg" alt="Notebook" width="150" class="m-2">
+            <img src="../assets/150x150.png" alt="Notebook" width="150" class="m-2">
+            <img src="https://source.unsplash.com/random" alt="Notebook" width="150" class="m-2">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--
+      Footer
+    -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 px-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>

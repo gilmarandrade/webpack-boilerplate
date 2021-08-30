@@ -1,0 +1,63 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic webpack starter project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx webpack serve --config webpack.dev.js --open",
+    "build": "npx webpack --mode production --config  webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilmarandrade/webpack-boilerplate.git"
+  },
+  "keywords": [
+    "webpack 5",
+    "bootstrap 5",
+    "sass",
+    "ES6",
+    "babel",
+    "html"
+  ],
+  "author": "Gilmar Andrade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gilmarandrade/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gilmarandrade/webpack-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "autoprefixer": "^10.3.2",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^2.2.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.38.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.1.0",
+    "bootstrap-icons": "^1.5.0"
+  }
+}
